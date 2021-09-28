@@ -28,14 +28,14 @@ src="https://pbs.twimg.com/profile_images/551035690234834945/JhdUiOPP.png" />
 
 ## People
 
-[Luca Bracone](https://people.epfl.ch/luca.bracone) <\br>
-[Luca Nyckees](https://people.epfl.ch/luca.nyckees)
-[Blerton Rashiti](https://people.epfl.ch/blerton.rashiti)
+[Luca Bracone](https://people.epfl.ch/luca.bracone) <br />
+[Luca Nyckees](https://people.epfl.ch/luca.nyckees) <br />
+[Blerton Rashiti](https://people.epfl.ch/blerton.rashiti) <br />
 [Kieran Vaudaux](https://people.epfl.ch/kieran.vaudaux)
 
 ## Description
 
-Zigzag persistence, as introduced by Carlsson and De Silva [[1]](https://arxiv.org/abs/0812.0197), offers a way to better understand the persistence of topological features observed in a family of spaces or pointclouds by generalizing the setting of persistent homology. In this project, we aim at providing a tool to compute levelset zigzag persistence. The idea is to deduce the results from computations on extended persistence, which are already implemented in C++. To this end, we make use of Python bindings.
+We are interested in studying meteorological data coming from Siwtzerland's *Genève Observatoire*. More precisely, we investigate the spatio-temporal evolution of a specific time of meteorological element : the mean temperature. In particular, we make use of various Python vizualisation tools to allow for an intuitive interactive setting.
 
 <img width="450" alt="figure" src="https://github.com/LucaNyckees/zigzag/blob/main/figures/11-Figure2-1.png">
 
@@ -63,13 +63,13 @@ A bijection between the extended persistence barcode and the zigzag barcode can 
 
 ## Related Articles and Useful References
 
-[[1]](https://arxiv.org/abs/0812.0197) - Zigzag Persistence\
-[[2]](https://arxiv.org/abs/2105.00518) - Computing Optimal Persitent Cycles for Levelset Zigzag on Manifold-like Complexes\
-[[3]](https://arxiv.org/abs/0911.2142) - Quantifying Transversality by Measuring the Robustness of Intersections\
-[[4]](https://www.mrzv.org/publications/robustness-levelsets/esa/) - The Robustness of Level Sets
+[[1]](https://arxiv.org/abs/1902.06183) - A Statistical Analysis of Noisy Crowdsourced Weather Data\
+[[2]](https://arxiv.org/pdf/2103.10936.pdf) - Forecasting of Meteorological
+variables using statistical methods
+and tools
 
 ## Interesting Material 🔍
 
-+ Tutorial on Python bindings [[click here]](https://realpython.com/python-bindings-overview/)
-+ Video lectures on topological data analysis by Henry Adams [[click here]](https://www.math.colostate.edu/~adams/teaching/dsci475spr2021/)
++ General overview on meteorological data analysis [[click here]](https://www.sciencedirect.com/topics/social-sciences/meteorological-data)
++ Video lectures on meteorological data visualization [[click here]](https://www.youtube.com/watch?v=E_n3Ft4WozM)
 
