@@ -35,7 +35,7 @@ src="https://pbs.twimg.com/profile_images/551035690234834945/JhdUiOPP.png" />
 
 ## Description
 
-We are interested in studying meteorological data coming from Siwtzerland's *Genève Observatoire*. More precisely, we investigate the spatio-temporal evolution of a specific time of meteorological element : the mean temperature. In particular, we make use of various Python vizualisation tools to allow for an intuitive interactive setting.
+We are interested in studying meteorological data coming from Switzerland's *Genève Observatoire*. More precisely, we investigate the spatio-temporal evolution of a specific time of meteorological element : the mean temperature. In particular, we make use of various Python vizualisation tools to allow for an intuitive interactive setting. The dataset that we s
 
 <img width="450" alt="figure" src="https://github.com/LucaNyckees/SCV_project1/blob/main/figures/temperatures_image.png">
 
