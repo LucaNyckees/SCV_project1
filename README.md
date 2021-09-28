@@ -28,20 +28,16 @@ src="https://pbs.twimg.com/profile_images/551035690234834945/JhdUiOPP.png" />
 
 ## People
 
-[Luca Bracone](https://people.epfl.ch/luca.bracone) <br />
-[Luca Nyckees](https://people.epfl.ch/luca.nyckees) <br />
-[Blerton Rashiti](https://people.epfl.ch/blerton.rashiti) <br />
-[Kieran Vaudaux](https://people.epfl.ch/kieran.vaudaux)
+* [Luca Bracone](https://people.epfl.ch/luca.bracone) 
+* [Luca Nyckees](https://people.epfl.ch/luca.nyckees) 
+* [Blerton Rashiti](https://people.epfl.ch/blerton.rashiti) 
+* [Kieran Vaudaux](https://people.epfl.ch/kieran.vaudaux)
 
 ## Description
 
 We are interested in studying meteorological data coming from Siwtzerland's *Genève Observatoire*. More precisely, we investigate the spatio-temporal evolution of a specific time of meteorological element : the mean temperature. In particular, we make use of various Python vizualisation tools to allow for an intuitive interactive setting.
 
-<img width="450" alt="figure" src="https://github.com/LucaNyckees/zigzag/blob/main/figures/11-Figure2-1.png">
-
-A bijection between the extended persistence barcode and the zigzag barcode can be established via so-called "diamond moves", involving the presence of relative Mayer-Vietoris diamonds, illustrated in the animation below. The precise statement is formulated as the *Strong Diamond Principle* - sometimes called the *Pyramid Theorem* - in [[1]](https://arxiv.org/abs/0812.0197). The whole process relies on consecutive transformations between two sequences of spaces that differ only at one point, so that the difference can be expressed by a relative Mayer-Vietoris diamond.
-
-<img width="550" alt="figure" src="https://github.com/LucaNyckees/zigzag/blob/main/figures/pyramid_zigzag.gif">
+<img width="450" alt="figure" src="https://github.com/LucaNyckees/SCV_project1/blob/main/figures/temperatures_image.png">
 
 ## Project Organization
 ------------
