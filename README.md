@@ -28,7 +28,7 @@ src="https://pbs.twimg.com/profile_images/551035690234834945/JhdUiOPP.png" />
 
 ## People
 
-[Luca Bracone](https://people.epfl.ch/luca.bracone)
+[Luca Bracone](https://people.epfl.ch/luca.bracone) <\br>
 [Luca Nyckees](https://people.epfl.ch/luca.nyckees)
 [Blerton Rashiti](https://people.epfl.ch/blerton.rashiti)
 [Kieran Vaudaux](https://people.epfl.ch/kieran.vaudaux)
