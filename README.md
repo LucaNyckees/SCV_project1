@@ -28,8 +28,10 @@ src="https://pbs.twimg.com/profile_images/551035690234834945/JhdUiOPP.png" />
 
 ## People
 
-Nicolas Berkouk : [EPFL profile](https://people.epfl.ch/nicolas.berkouk), [Personal site](https://nberkouk.github.io/)<br />
-Luca Nyckees : [EPFL profile](https://people.epfl.ch/luca.nyckees)
+[Luca Bracone](https://people.epfl.ch/luca.bracone)
+[Luca Nyckees](https://people.epfl.ch/luca.nyckees)
+[Blerton Rashiti](https://people.epfl.ch/blerton.rashiti)
+[Kieran Vaudaux](https://people.epfl.ch/kieran.vaudaux)
 
 ## Description
 
