@@ -52,6 +52,8 @@ We are interested in studying meteorological data coming from Switzerland's *Gen
     │ 
     ├── figures            -- Optional graphics and figures to be included in the report.
     │
+    ├── data               -- Raw data.
+    │
     ├── requirements.txt   -- Requirements file for reproducibility.
     └── src                -- Project source code.
    
