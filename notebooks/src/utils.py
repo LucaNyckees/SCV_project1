@@ -72,3 +72,7 @@ def get_observatoire(remove_dubious=False):
 
     tables = [cc, hu, qq, rr, sd, ss, tg, tn, tx]
     return smash_tables(tables)
+
+
+def months(data_frame):
+    return data_frame["DATE", 5:7]
