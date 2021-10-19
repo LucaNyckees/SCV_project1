@@ -74,5 +74,3 @@ def get_observatoire(remove_dubious=False):
     return smash_tables(tables)
 
 
-def months(data_frame):
-    return data_frame["DATE", 5:7]
