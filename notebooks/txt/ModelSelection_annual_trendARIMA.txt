@@ -4,7 +4,7 @@
 \textbf{Dep. Variable:}          &       Mean       & \textbf{  No. Observations:  } &    121      \\
 \textbf{Model:}                  &  ARIMA(1, 0, 1)  & \textbf{  Log Likelihood     } &  -103.092   \\
 \textbf{Date:}                   & Mon, 25 Oct 2021 & \textbf{  AIC                } &  216.185    \\
-\textbf{Time:}                   &     15:35:28     & \textbf{  BIC                } &  230.164    \\
+\textbf{Time:}                   &     21:00:15     & \textbf{  BIC                } &  230.164    \\
 \textbf{Sample:}                 &        0         & \textbf{  HQIC               } &  221.862    \\
 \textbf{}                        &       - 121      & \textbf{                     } &             \\
 \bottomrule
