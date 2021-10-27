@@ -2,11 +2,21 @@ from ipywidgets import fixed, interact, interact_manual, interactive
 import ipywidgets as widgets
 import matplotlib
 import matplotlib.pyplot as plt
+import streamlit as st
 
 plt.style.use('fivethirtyeight')
 matplotlib.rcParams.update({'font.size': 10})
 
 def pie_chart_missing(year, ax, df):
+    
+    """
+    Plot the piechart of the missing values proportions in the dataframe df.
+    
+    Args : 
+        year : int
+        ax : matplotlib ax
+        df : Pandas.dataframe
+    """
     
     labels = 'Recorded', 'Missing'
     sizes = [len(df)-len(df[df['Q_TG']==9]), len(df[df['Q_TG']==9])]
@@ -17,6 +27,16 @@ def pie_chart_missing(year, ax, df):
     
 def plot_mean_temp(year, ax, df, element):
     
+    """
+    Plot the evolution curve of a meteorological element
+    
+    Args : 
+        year : int
+        ax : matplotlib ax
+        df : Pandas.dataframe
+        element : string (meteorological element)
+    """
+    
     ax.set_xlabel("Day of the year")
     ax.set_ylabel(element)
     ax.set_title(element + " curve")
@@ -24,6 +44,16 @@ def plot_mean_temp(year, ax, df, element):
     ax.legend()
     
 def plot_hist_mean(year, ax, df, element):
+    
+    """
+    Plot a histogram wrt to the current year index (slider)
+    
+    Args : 
+        year : int
+        ax : matplotlib ax
+        df : Pandas.dataframe
+        element : string (meteorological element)
+    """
     
     ax.set_xlabel("Day of the year")
     ax.set_ylabel(element)
@@ -34,6 +64,13 @@ def plot_hist_mean(year, ax, df, element):
 def plot_min(years, x, ax, df, element):
     """
     Plot the min elements wrt to the current year index (slider)
+    
+    Args : 
+        x : int (the slider parameter)
+        years : list of int
+        ax : matplotlib ax
+        df : Pandas.dataframe
+        element : string (meteorological element)
     """
     min_temps = [min(df[df.Year==year]['TG']) for year in years]
     ax.set_xlabel("Year")
@@ -49,6 +86,13 @@ def plot_min(years, x, ax, df, element):
 def plot_max(years, x, ax, df, element):
     """
     Plot the max temperatures wrt to the current year index (slider)
+    
+    Args : 
+        x : int (the slider parameter)
+        years : list of int
+        ax : matplotlib ax
+        df : Pandas.dataframe
+        element : string (meteorological element)
     """
     max_temps = [max(df[df.Year==year]['TG']) for year in years]
     ax.set_xlabel("Year")
@@ -64,6 +108,13 @@ def plot_max(years, x, ax, df, element):
 def plot_std(years, x, ax, df):
     """
     Plot the standard deviation wrt to the current year index (slider)
+    
+    Args : 
+        x : int (the slider parameter)
+        years : list of int
+        ax : matplotlib ax
+        df : Pandas.dataframe
+        element : string (meteorological element)
     """
     stds = [df[df.Year==year]['TG'].std() for year in years]
     ax.set_xlabel("Year")
@@ -74,6 +125,19 @@ def plot_std(years, x, ax, df):
     
     
 def plot_stats_window(years, df, element):
+    
+    """
+    This function implements an interactive slider s(x) depending on a variable x. It 
+    essentially produces six plots, for each instance of the parameter x (e.g. time).
+    
+    Args : 
+        df : Pandas.dataframe
+        years : list of int (list of years along which we move the slider)
+        element : string indicating what meteorological element we consider
+        
+    Returns : 
+        returning as in interact(..., x=widgets.IntSlider(...))
+    """
 
     def interact_plot(x, years=fixed(years), df=fixed(df), element=fixed(element)):
 
@@ -99,3 +163,5 @@ def plot_stats_window(years, df, element):
 
     interact(interact_plot, x=widgets.IntSlider(
         min=0, max=len(years)-1, step=1, value=0))
+
+
