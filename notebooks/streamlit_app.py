@@ -1,11 +1,12 @@
+import matplotlib
 import matplotlib.pyplot as plt
 import streamlit as st
-from pyvis.network import Network
+#from pyvis.network import Network
 import numpy as np
 import pandas as pd
 from datetime import datetime
 import os
-import matplotlib
+
 
 from streamlit_functions import display_date_slider
 from visual_features import *
